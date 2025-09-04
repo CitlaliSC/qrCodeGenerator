@@ -1,0 +1,12 @@
+{
+    "name": "QR Code Generator",
+    "version": "1.0.0",
+    "description": "This is an extension to create a QR code out of any page you're navigating in.",
+    "manifest_version": 3,
+    "permissions": ["tabs"],
+    "author": "CitlaliSC",
+    "action": {
+        "default_popup": "index.html",
+        "defauult_title": "QR Code Generator"
+    }   
+}
