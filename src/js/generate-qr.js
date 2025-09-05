@@ -30,6 +30,5 @@ function generateQR(link) {
         .then(blob => {
         const blobUrl = URL.createObjectURL(blob);
         qrDownload.href = blobUrl;
-        qrDownload.download = "qr_code.png"; // fuerza el nombre
         });
 }
